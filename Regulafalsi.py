@@ -7,10 +7,10 @@ Created on Sun Feb 23 22:33:05 2020
 
 import math
 def f(x):
-    return x**3-10*x**2+5
+    return 1/((x-3)**2+0.01)- 1/((x-0.8)**2+0.04)
 
-a = 0.6
-b = 0.8
+a = 1
+b = 3
 e = 0.0000001
 N = 100
 iterasi = 0
